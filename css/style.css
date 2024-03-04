@@ -225,6 +225,27 @@ ul{
 .coll{
     margin-left: 100px;
 }
+@media(max-width:1230px){
+    .intro_title{
+        font-size: 120px;
+    }
+}
+@media(max-width:990px){
+    .intro_title{
+        font-size: 32px;
+    }
+}
+@media(max-width:650px){
+    .intro_title{
+        font-size: 22px;
+    }
+}
+@media(max-width:575px){
+    .intro_title{
+        font-size: 120px
+    }
+}
+
 
 
 
