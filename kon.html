@@ -22,7 +22,7 @@
     <h1>Заключение</h1>
     <section class="form">
             <section id="form">
-                <form action="#">
+                <form id="forma">
                     <div class="form-group">
                         <label for="name">Имя:</label>
                         <input type="text" id="name" name="name" required>
@@ -84,7 +84,7 @@
     <script>
         
 emailjs.init("LhIw2-zqJ5hc6Zvzg");
-document.getElementById('form').addEventListener('submit', function(event) {
+document.getElementById('forma').addEventListener('submit', function(event) {
 event.preventDefault(); // Не обновляйте страницу, пока сообщение не отправлено
 emailjs.sendForm('service_mxzdahe', 'template_zsfxn7q', this)
 .then(function() {
